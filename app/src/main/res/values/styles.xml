@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme"  parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#090909</item>
+        <item name="colorPrimaryDark">#B1B0B0</item>
+        <item name="colorAccent">#070707</item>
+        <item name="c1">#525252</item>
+        <item name="c2">#0C0C0C</item>
+        <item name="button">#090909</item>
+        <item name="tint">#fff</item>
+        <item name="text">#fff</item>
+        <item name="card">#070707</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+</resources>

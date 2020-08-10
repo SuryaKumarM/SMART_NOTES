@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".module">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modules"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <Button
+        android:id="@+id/m1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Module1"
+        android:textColor="#fff"
+        android:background="@drawable/round"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <Button
+        android:id="@+id/m2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Module2"
+        android:background="@drawable/round"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/m3"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/round"
+        android:layout_marginTop="30dp"
+        android:text="Module3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/m4"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Module4"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:background="@drawable/round"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/m5"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Module5"
+        android:textColor="#fff"
+        android:background="@drawable/round"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/m4"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

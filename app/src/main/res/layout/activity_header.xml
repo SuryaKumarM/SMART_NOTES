@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".header"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@drawable/gradient3">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/profile"
+            app:civ_circle_background_color="#4facfe"
+            android:src="@drawable/logo"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#fff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="smart notes"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.smartnotes.com"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColorLink="#fff"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

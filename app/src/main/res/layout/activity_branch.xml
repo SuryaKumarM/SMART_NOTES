@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".branch">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="BRANCH"
+        android:textColor="#fff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/branch1"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/round"
+        android:text="CSE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <Button
+        android:id="@+id/branch2"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:background="@drawable/round"
+        android:text="MECH"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#fff"
+        app:layout_constraintTop_toBottomOf="@+id/branch1"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <Button
+        android:id="@+id/branch3"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/round"
+        android:text="ISE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/branch2"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <Button
+        android:id="@+id/branch4"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@drawable/round"
+        android:text="CIVIL"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/branch3"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <Button
+        android:id="@+id/branch5"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@drawable/round"
+        android:text="ECE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/branch4"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <Button
+        android:id="@+id/branch6"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/round"
+        android:text="EEE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/branch5"
+        app:layout_constraintVertical_bias="0.263" />
+</androidx.constraintlayout.widget.ConstraintLayout>
